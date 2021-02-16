@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import Header from './Header';
-import Card from './Card';
+import Cards from './Cards';
 import ContactContainer from './ContactContainer';
 class App extends Component {
 	render() {
@@ -13,7 +13,7 @@ class App extends Component {
 					<a href='#'>Link</a>
 					<a href='#'>Link</a>
 				</div>
-				<Card />
+				<Cards />
 				<ContactContainer />
 			</div>
 		);
